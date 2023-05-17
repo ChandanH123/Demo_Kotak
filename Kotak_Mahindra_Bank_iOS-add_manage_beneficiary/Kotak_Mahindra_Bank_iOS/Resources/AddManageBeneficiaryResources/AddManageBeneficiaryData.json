@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "beneficiary_name": "Abhinav mummy",
+        "bank_name": "Punjab national bank",
+        "account_type": "savings",
+        "account_number": "xxxxxxx",
+        "favourite": true,
+    },
+    
+    {
+        "id": 2,
+        "beneficiary_name": "adarsh",
+        "bank_name": "dbs bank india limited",
+        "account_type": "savings",
+        "account_number": " xxxxxxx",
+        "favourite": true,
+    },
+    
+    {
+        "id": 3,
+        "beneficiary_name": "arbind enterprises",
+        "bank_name": "indusind bank ltd",
+        "account_type": "current",
+        "account_number": "xxxx8062",
+        "favourite": false,
+    },
+    
+    {
+        "id": 4,
+        "beneficiary_name": "bhaiya",
+        "bank_name": "hdfc bank",
+        "account_type": "savings",
+        "account_number": "xxxx3718",
+        "favourite": false,
+    },
+    
+    {
+        "id": 5,
+        "beneficiary_name": "bhakti mummy",
+        "bank_name": "axis bank ltd",
+        "account_type": "savings",
+        "account_number": "xxxx4002",
+        "favourite": true,
+    },
+    
+    {
+        "id": 6,
+        "beneficiary_name": "emi account",
+        "bank_name": "kotak mahindra bank",
+        "account_type": "savings",
+        "account_number": "xxxxxxx",
+        "favourite": false,
+    },
+    
+    {
+        "id": 7,
+        "beneficiary_name": "Ankit dutta",
+        "bank_name": "Punjab national bank",
+        "account_type": "savings",
+        "account_number": "xxxxxxx",
+        "favourite": true,
+    },
+    
+    {
+        "id": 8,
+        "beneficiary_name": "Kamal sahu",
+        "bank_name": "dbs bank india limited",
+        "account_type": "savings",
+        "account_number": " xxxxxxx",
+        "favourite": true,
+    },
+    
+    {
+        "id": 9,
+        "beneficiary_name": "Ruby yadav",
+        "bank_name": "indusind bank ltd",
+        "account_type": "current",
+        "account_number": "xxxx8062",
+        "favourite": false,
+    },
+    
+    {
+        "id": 10,
+        "beneficiary_name": "Asadullah behlim",
+        "bank_name": "hdfc bank",
+        "account_type": "savings",
+        "account_number": "xxxx3718",
+        "favourite": false,
+    },
+    
+    {
+        "id": 11,
+        "beneficiary_name": "Shubham sharma",
+        "bank_name": "axis bank ltd",
+        "account_type": "savings",
+        "account_number": "xxxx4002",
+        "favourite": true,
+    },
+    
+    {
+        "id": 12,
+        "beneficiary_name": "Anuj soni",
+        "bank_name": "kotak mahindra bank",
+        "account_type": "savings",
+        "account_number": "xxxxxxx",
+        "favourite": false,
+    }
+]

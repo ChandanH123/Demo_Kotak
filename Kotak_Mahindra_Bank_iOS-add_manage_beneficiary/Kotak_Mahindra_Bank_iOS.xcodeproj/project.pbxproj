@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172992642992E2CF00973F84 /* BeneficiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172992632992E2CF00973F84 /* BeneficiaryCell.swift */; };
+		172992662992E51A00973F84 /* AddManageBeneficiaryJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172992652992E51A00973F84 /* AddManageBeneficiaryJsonModel.swift */; };
+		1742931129AF55FC0072E211 /* AddManageBeneficiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742931029AF55FC0072E211 /* AddManageBeneficiaryViewModel.swift */; };
+		1764468A299E4AB9009E2865 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17644689299E4AB9009E2865 /* GlobalConstants.swift */; };
+		17937CF929B23AEA00F48106 /* AddManageBeneficiaryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17937CF829B23AEA00F48106 /* AddManageBeneficiaryViewModelTests.swift */; };
+		17A107BD29B3AB7B0089ABAE /* AddManageBeneficiaryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 17BC650829A253CB00A78E15 /* AddManageBeneficiaryData.json */; };
+		17B4F03F299B64BE0089CA8A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4F03E299B64BE0089CA8A /* MainViewController.swift */; };
+		17B4F041299B86BA0089CA8A /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4F040299B86BA0089CA8A /* UIViewController+Utils.swift */; };
+		17B4F045299BB3850089CA8A /* AddManageBeneficiaryUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4F044299BB3850089CA8A /* AddManageBeneficiaryUIModel.swift */; };
+		17B8F7852992447C0064B224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B8F7842992447C0064B224 /* AppDelegate.swift */; };
+		17B8F78E2992447F0064B224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B8F78D2992447F0064B224 /* Assets.xcassets */; };
+		17B8F7912992447F0064B224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B8F78F2992447F0064B224 /* LaunchScreen.storyboard */; };
+		17B8F7BA29926D050064B224 /* AddManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B8F7B929926D050064B224 /* AddManageViewController.swift */; };
+		17BC650929A253CB00A78E15 /* AddManageBeneficiaryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 17BC650829A253CB00A78E15 /* AddManageBeneficiaryData.json */; };
+		17DF90F329E2C765002D4DEE /* ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF90F229E2C765002D4DEE /* ServiceTests.swift */; };
+		17EE97F729DB02140012A279 /* AddManageBeneficiaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE97F629DB02140012A279 /* AddManageBeneficiaryService.swift */; };
+		41E45FB629F6915D00ACEEEC /* HomePageJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FB529F6915D00ACEEEC /* HomePageJsonModel.swift */; };
+		41E45FC029F6918C00ACEEEC /* HeaderTitleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FB829F6918C00ACEEEC /* HeaderTitleViewCell.swift */; };
+		41E45FC129F6918C00ACEEEC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FB929F6918C00ACEEEC /* CollectionViewCell.swift */; };
+		41E45FC229F6918C00ACEEEC /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FBA29F6918C00ACEEEC /* ButtonViewController.swift */; };
+		41E45FC329F6918C00ACEEEC /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FBB29F6918C00ACEEEC /* TextViewController.swift */; };
+		41E45FC429F6918C00ACEEEC /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FBC29F6918C00ACEEEC /* HomePageViewController.swift */; };
+		41E45FC529F6918C00ACEEEC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FBD29F6918C00ACEEEC /* HeaderView.swift */; };
+		41E45FC629F6918C00ACEEEC /* SeeMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FBE29F6918C00ACEEEC /* SeeMoreViewController.swift */; };
+		41E45FC729F6918C00ACEEEC /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FBF29F6918C00ACEEEC /* BoxView.swift */; };
+		41E45FCA29F691AE00ACEEEC /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E45FC929F691AE00ACEEEC /* HomePageViewModel.swift */; };
+		41E45FCD29F6922200ACEEEC /* HomePageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 41E45FCC29F6922200ACEEEC /* HomePageData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17937CFA29B23AEA00F48106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B8F7792992447C0064B224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B8F7802992447C0064B224;
+			remoteInfo = Kotak_Mahindra_Bank_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172992632992E2CF00973F84 /* BeneficiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryCell.swift; sourceTree = "<group>"; };
+		172992652992E51A00973F84 /* AddManageBeneficiaryJsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManageBeneficiaryJsonModel.swift; sourceTree = "<group>"; };
+		1742931029AF55FC0072E211 /* AddManageBeneficiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManageBeneficiaryViewModel.swift; sourceTree = "<group>"; };
+		17644689299E4AB9009E2865 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		17937CF629B23AEA00F48106 /* Kotak_Mahindra_Bank_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kotak_Mahindra_Bank_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17937CF829B23AEA00F48106 /* AddManageBeneficiaryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManageBeneficiaryViewModelTests.swift; sourceTree = "<group>"; };
+		17B4F03E299B64BE0089CA8A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		17B4F040299B86BA0089CA8A /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "Kotak_Mahindra_Bank_iOS/Utils/UIViewController+Utils.swift"; sourceTree = SOURCE_ROOT; };
+		17B4F044299BB3850089CA8A /* AddManageBeneficiaryUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManageBeneficiaryUIModel.swift; sourceTree = "<group>"; };
+		17B8F7812992447C0064B224 /* Kotak_Mahindra_Bank_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kotak_Mahindra_Bank_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B8F7842992447C0064B224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17B8F78D2992447F0064B224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17B8F7902992447F0064B224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17B8F7922992447F0064B224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B8F7B929926D050064B224 /* AddManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManageViewController.swift; sourceTree = "<group>"; };
+		17BC650829A253CB00A78E15 /* AddManageBeneficiaryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AddManageBeneficiaryData.json; sourceTree = "<group>"; };
+		17DF90F229E2C765002D4DEE /* ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTests.swift; sourceTree = "<group>"; };
+		17EE97F629DB02140012A279 /* AddManageBeneficiaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManageBeneficiaryService.swift; sourceTree = "<group>"; };
+		41E45FB529F6915D00ACEEEC /* HomePageJsonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageJsonModel.swift; sourceTree = "<group>"; };
+		41E45FB829F6918C00ACEEEC /* HeaderTitleViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTitleViewCell.swift; sourceTree = "<group>"; };
+		41E45FB929F6918C00ACEEEC /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		41E45FBA29F6918C00ACEEEC /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		41E45FBB29F6918C00ACEEEC /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		41E45FBC29F6918C00ACEEEC /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		41E45FBD29F6918C00ACEEEC /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		41E45FBE29F6918C00ACEEEC /* SeeMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeMoreViewController.swift; sourceTree = "<group>"; };
+		41E45FBF29F6918C00ACEEEC /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		41E45FC929F691AE00ACEEEC /* HomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		41E45FCC29F6922200ACEEEC /* HomePageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HomePageData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17937CF329B23AEA00F48106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B8F77E2992447C0064B224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17644686299E0A8F009E2865 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				17B4F040299B86BA0089CA8A /* UIViewController+Utils.swift */,
+				17644689299E4AB9009E2865 /* GlobalConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		17937CF729B23AEA00F48106 /* Kotak_Mahindra_Bank_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				17937CF829B23AEA00F48106 /* AddManageBeneficiaryViewModelTests.swift */,
+				17DF90F229E2C765002D4DEE /* ServiceTests.swift */,
+			);
+			path = Kotak_Mahindra_Bank_iOSTests;
+			sourceTree = "<group>";
+		};
+		17B04F1B29F69DDD000EB567 /* AddManageBeneficiaryModel */ = {
+			isa = PBXGroup;
+			children = (
+				172992652992E51A00973F84 /* AddManageBeneficiaryJsonModel.swift */,
+				17B4F044299BB3850089CA8A /* AddManageBeneficiaryUIModel.swift */,
+			);
+			path = AddManageBeneficiaryModel;
+			sourceTree = "<group>";
+		};
+		17B04F1C29F69E6C000EB567 /* AddManageBeneficiaryView */ = {
+			isa = PBXGroup;
+			children = (
+				17B8F7B929926D050064B224 /* AddManageViewController.swift */,
+				172992632992E2CF00973F84 /* BeneficiaryCell.swift */,
+			);
+			path = AddManageBeneficiaryView;
+			sourceTree = "<group>";
+		};
+		17B04F1D29F69E8E000EB567 /* AddManageBeneficiaryViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1742931029AF55FC0072E211 /* AddManageBeneficiaryViewModel.swift */,
+			);
+			path = AddManageBeneficiaryViewModel;
+			sourceTree = "<group>";
+		};
+		17B04F1E29F69EB7000EB567 /* AddManageBeneficiaryNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				17EE97F629DB02140012A279 /* AddManageBeneficiaryService.swift */,
+			);
+			path = AddManageBeneficiaryNetwork;
+			sourceTree = "<group>";
+		};
+		17B04F1F29F69EFA000EB567 /* AddManageBeneficiaryResources */ = {
+			isa = PBXGroup;
+			children = (
+				17BC650829A253CB00A78E15 /* AddManageBeneficiaryData.json */,
+			);
+			path = AddManageBeneficiaryResources;
+			sourceTree = "<group>";
+		};
+		17B8F7782992447C0064B224 = {
+			isa = PBXGroup;
+			children = (
+				17B8F7832992447C0064B224 /* Kotak_Mahindra_Bank_iOS */,
+				17937CF729B23AEA00F48106 /* Kotak_Mahindra_Bank_iOSTests */,
+				17B8F7822992447C0064B224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17B8F7822992447C0064B224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B8F7812992447C0064B224 /* Kotak_Mahindra_Bank_iOS.app */,
+				17937CF629B23AEA00F48106 /* Kotak_Mahindra_Bank_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B8F7832992447C0064B224 /* Kotak_Mahindra_Bank_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17B8F7922992447F0064B224 /* Info.plist */,
+				17B8F78F2992447F0064B224 /* LaunchScreen.storyboard */,
+				17B8F78D2992447F0064B224 /* Assets.xcassets */,
+				17B8F7842992447C0064B224 /* AppDelegate.swift */,
+				17D66AE12997F6B3003DB2CA /* Model */,
+				17B8F7B6299263BD0064B224 /* View */,
+				17B4F03E299B64BE0089CA8A /* MainViewController.swift */,
+				17EAB08529A546E6009EC4D8 /* ViewModel */,
+				17EE97F529DB01E40012A279 /* Network */,
+				17D66AE22997F716003DB2CA /* Resources */,
+				17644686299E0A8F009E2865 /* Utils */,
+			);
+			path = Kotak_Mahindra_Bank_iOS;
+			sourceTree = "<group>";
+		};
+		17B8F7B6299263BD0064B224 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FB729F6916C00ACEEEC /* HomePageView */,
+				17B04F1C29F69E6C000EB567 /* AddManageBeneficiaryView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17D66AE12997F6B3003DB2CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FB429F6913000ACEEEC /* HomePageModel */,
+				17B04F1B29F69DDD000EB567 /* AddManageBeneficiaryModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17D66AE22997F716003DB2CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FCB29F691BE00ACEEEC /* HomePageResources */,
+				17B04F1F29F69EFA000EB567 /* AddManageBeneficiaryResources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17EAB08529A546E6009EC4D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FC829F6919E00ACEEEC /* HomePageViewModel */,
+				17B04F1D29F69E8E000EB567 /* AddManageBeneficiaryViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		17EE97F529DB01E40012A279 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				17B04F1E29F69EB7000EB567 /* AddManageBeneficiaryNetwork */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		41E45FB429F6913000ACEEEC /* HomePageModel */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FB529F6915D00ACEEEC /* HomePageJsonModel.swift */,
+			);
+			path = HomePageModel;
+			sourceTree = "<group>";
+		};
+		41E45FB729F6916C00ACEEEC /* HomePageView */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FBF29F6918C00ACEEEC /* BoxView.swift */,
+				41E45FBA29F6918C00ACEEEC /* ButtonViewController.swift */,
+				41E45FB929F6918C00ACEEEC /* CollectionViewCell.swift */,
+				41E45FB829F6918C00ACEEEC /* HeaderTitleViewCell.swift */,
+				41E45FBD29F6918C00ACEEEC /* HeaderView.swift */,
+				41E45FBC29F6918C00ACEEEC /* HomePageViewController.swift */,
+				41E45FBE29F6918C00ACEEEC /* SeeMoreViewController.swift */,
+				41E45FBB29F6918C00ACEEEC /* TextViewController.swift */,
+			);
+			path = HomePageView;
+			sourceTree = "<group>";
+		};
+		41E45FC829F6919E00ACEEEC /* HomePageViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FC929F691AE00ACEEEC /* HomePageViewModel.swift */,
+			);
+			path = HomePageViewModel;
+			sourceTree = "<group>";
+		};
+		41E45FCB29F691BE00ACEEEC /* HomePageResources */ = {
+			isa = PBXGroup;
+			children = (
+				41E45FCC29F6922200ACEEEC /* HomePageData.json */,
+			);
+			path = HomePageResources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17937CF529B23AEA00F48106 /* Kotak_Mahindra_Bank_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17937CFC29B23AEA00F48106 /* Build configuration list for PBXNativeTarget "Kotak_Mahindra_Bank_iOSTests" */;
+			buildPhases = (
+				17937CF229B23AEA00F48106 /* Sources */,
+				17937CF329B23AEA00F48106 /* Frameworks */,
+				17937CF429B23AEA00F48106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17937CFB29B23AEA00F48106 /* PBXTargetDependency */,
+			);
+			name = Kotak_Mahindra_Bank_iOSTests;
+			productName = Kotak_Mahindra_Bank_iOSTests;
+			productReference = 17937CF629B23AEA00F48106 /* Kotak_Mahindra_Bank_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17B8F7802992447C0064B224 /* Kotak_Mahindra_Bank_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B8F7AB2992447F0064B224 /* Build configuration list for PBXNativeTarget "Kotak_Mahindra_Bank_iOS" */;
+			buildPhases = (
+				17B8F77D2992447C0064B224 /* Sources */,
+				17B8F77E2992447C0064B224 /* Frameworks */,
+				17B8F77F2992447C0064B224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kotak_Mahindra_Bank_iOS;
+			productName = Kotak_Mahindra_Bank_iOS;
+			productReference = 17B8F7812992447C0064B224 /* Kotak_Mahindra_Bank_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B8F7792992447C0064B224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					17937CF529B23AEA00F48106 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17B8F7802992447C0064B224;
+					};
+					17B8F7802992447C0064B224 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 17B8F77C2992447C0064B224 /* Build configuration list for PBXProject "Kotak_Mahindra_Bank_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17B8F7782992447C0064B224;
+			productRefGroup = 17B8F7822992447C0064B224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B8F7802992447C0064B224 /* Kotak_Mahindra_Bank_iOS */,
+				17937CF529B23AEA00F48106 /* Kotak_Mahindra_Bank_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17937CF429B23AEA00F48106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A107BD29B3AB7B0089ABAE /* AddManageBeneficiaryData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B8F77F2992447C0064B224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B8F7912992447F0064B224 /* LaunchScreen.storyboard in Resources */,
+				17BC650929A253CB00A78E15 /* AddManageBeneficiaryData.json in Resources */,
+				17B8F78E2992447F0064B224 /* Assets.xcassets in Resources */,
+				41E45FCD29F6922200ACEEEC /* HomePageData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17937CF229B23AEA00F48106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17937CF929B23AEA00F48106 /* AddManageBeneficiaryViewModelTests.swift in Sources */,
+				17DF90F329E2C765002D4DEE /* ServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B8F77D2992447C0064B224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1742931129AF55FC0072E211 /* AddManageBeneficiaryViewModel.swift in Sources */,
+				172992642992E2CF00973F84 /* BeneficiaryCell.swift in Sources */,
+				41E45FB629F6915D00ACEEEC /* HomePageJsonModel.swift in Sources */,
+				41E45FC629F6918C00ACEEEC /* SeeMoreViewController.swift in Sources */,
+				1764468A299E4AB9009E2865 /* GlobalConstants.swift in Sources */,
+				17B4F041299B86BA0089CA8A /* UIViewController+Utils.swift in Sources */,
+				41E45FC329F6918C00ACEEEC /* TextViewController.swift in Sources */,
+				41E45FC529F6918C00ACEEEC /* HeaderView.swift in Sources */,
+				17B4F045299BB3850089CA8A /* AddManageBeneficiaryUIModel.swift in Sources */,
+				41E45FC029F6918C00ACEEEC /* HeaderTitleViewCell.swift in Sources */,
+				41E45FCA29F691AE00ACEEEC /* HomePageViewModel.swift in Sources */,
+				17B8F7852992447C0064B224 /* AppDelegate.swift in Sources */,
+				41E45FC229F6918C00ACEEEC /* ButtonViewController.swift in Sources */,
+				41E45FC129F6918C00ACEEEC /* CollectionViewCell.swift in Sources */,
+				41E45FC429F6918C00ACEEEC /* HomePageViewController.swift in Sources */,
+				17B8F7BA29926D050064B224 /* AddManageViewController.swift in Sources */,
+				17EE97F729DB02140012A279 /* AddManageBeneficiaryService.swift in Sources */,
+				41E45FC729F6918C00ACEEEC /* BoxView.swift in Sources */,
+				172992662992E51A00973F84 /* AddManageBeneficiaryJsonModel.swift in Sources */,
+				17B4F03F299B64BE0089CA8A /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17937CFB29B23AEA00F48106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B8F7802992447C0064B224 /* Kotak_Mahindra_Bank_iOS */;
+			targetProxy = 17937CFA29B23AEA00F48106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B8F78F2992447F0064B224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B8F7902992447F0064B224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17937CFD29B23AEA00F48106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3QT578937;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chandan.Kotak-Mahindra-Bank-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kotak_Mahindra_Bank_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kotak_Mahindra_Bank_iOS";
+			};
+			name = Debug;
+		};
+		17937CFE29B23AEA00F48106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3QT578937;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chandan.Kotak-Mahindra-Bank-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kotak_Mahindra_Bank_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kotak_Mahindra_Bank_iOS";
+			};
+			name = Release;
+		};
+		17B8F7A92992447F0064B224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17B8F7AA2992447F0064B224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B8F7AC2992447F0064B224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3QT578937;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kotak_Mahindra_Bank_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chandan.Kotak-Mahindra-Bank-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17B8F7AD2992447F0064B224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3QT578937;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kotak_Mahindra_Bank_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chandan.Kotak-Mahindra-Bank-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17937CFC29B23AEA00F48106 /* Build configuration list for PBXNativeTarget "Kotak_Mahindra_Bank_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17937CFD29B23AEA00F48106 /* Debug */,
+				17937CFE29B23AEA00F48106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B8F77C2992447C0064B224 /* Build configuration list for PBXProject "Kotak_Mahindra_Bank_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B8F7A92992447F0064B224 /* Debug */,
+				17B8F7AA2992447F0064B224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B8F7AB2992447F0064B224 /* Build configuration list for PBXNativeTarget "Kotak_Mahindra_Bank_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B8F7AC2992447F0064B224 /* Debug */,
+				17B8F7AD2992447F0064B224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B8F7792992447C0064B224 /* Project object */;
+}

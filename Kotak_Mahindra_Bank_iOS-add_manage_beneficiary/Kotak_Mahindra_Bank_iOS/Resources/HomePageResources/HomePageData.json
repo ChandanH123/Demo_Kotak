@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "title": "Quick Access",
+        "data": [
+            {
+                "label": "Pay your Contact",
+                "iconName": "iphone.homebutton"
+            },
+            {
+                "label": "Loan and Card offers",
+                "iconName": "banknote"
+            },
+            {
+                "label": "Account overview",
+                "iconName": "indianrupeesign.circle"
+            },
+            {
+                "label": "Scan any \nQR",
+                "iconName": "qrcode.viewfinder"
+            }
+        ]
+        
+    },
+    {
+        "id": 2,
+        "title": "Bank",
+        "data": [
+            {
+            "label": "Account Overview",
+            "iconName": "indianrupeesign.circle"
+            },
+            {
+                "label": "Account Activity",
+                "iconName": "arrow.up.arrow.down"
+            },
+            {
+                "label": "Statement\n",
+                "iconName": "note.text"
+            },
+            {
+                "label": "Fixed/Recurring",
+                "iconName": "bitcoinsign.circle.fill"
+            },
+            {
+                "label": "One View\n",
+                "iconName": "eye"
+            },
+            {
+                "label": "Cheque Requests",
+                "iconName": "banknote.fill"
+            },
+            {
+                "label": "Spendz Prepaid",
+                "iconName": "cart"
+            },
+            {
+                "label": "Send Money Abroad",
+                "iconName": "coloncurrencysign.circle"
+            },
+            {
+                "label": "Account Service Requests",
+                "iconName": "indianrupeesign.circle.fill"
+            },
+            {
+                "label": "Account Statement",
+                "iconName": "note.text.badge.plus"
+            }
+        ]
+    },
+    
+    {
+        "id": 3,
+        "title": "Pay & Transfer",
+        "data": [
+            {
+            "label": "Transfer Money",
+            "iconName": "rectangle.portrait.and.arrow.right"
+        },
+            {
+                "label": "Bill Pay & Recharge",
+                "iconName": "b.circle.fill"
+            },
+            {
+                "label": "BHIM \nUPI",
+                "iconName": "arrow.right.square"
+            },
+            {
+                "label": "Scan Any \nQR",
+                "iconName": "qrcode.viewfinder"
+            },
+            {
+                "label": "One Time Transfer\n",
+                "iconName": "1.circle"
+            },
+            {
+                "label": "Pay Your contact",
+                "iconName": "rectangle.portrait.and.arrow.right"
+            },
+            {
+                "label": "Add/Manage Beneficiary",
+                "iconName": "person.fill.badge.plus"
+            },
+            {
+                "label": "Send Money Abroad",
+                "iconName": "coloncurrencysign.circle"
+            },
+            {
+                "label": "Send to My Kotak Accounts",
+                "iconName": "paperplane"
+            },
+            {
+                "label": "Send To My Beneficiaries",
+                "iconName": "person.fill.checkmark"
+            },
+            {
+                "label": "Pay Due \nBills",
+                "iconName": "bitcoinsign.square"
+            },
+            {
+                "label": "DTH Recharge",
+                "iconName": "antenna.radiowaves.left.and.right.circle.fill"
+            }
+        ]
+        
+    },
+    
+    {
+        "id": 4,
+        "title": "Loans",
+        "data": [{
+            "label": "Free Credit Score",
+            "iconName": "speedometer"
+        },
+            {
+                "label": "Loan & Card Offers",
+                "iconName": "hand.draw"
+            },
+            {
+                "label": "Personal Loan",
+                "iconName": "folder.fill.badge.person.crop"
+            },
+            {
+                "label": "Home\nLoan",
+                "iconName": "homekit"
+            },
+            {
+                "label": "Pay Day Loan\n",
+                "iconName": "indianrupeesign.circle.fill"
+            },
+            {
+                "label": "Consumer Durable Loan",
+                "iconName": "laptopcomputer.and.iphone"
+            },
+            {
+                "label": "Pay Overdue EMI",
+                "iconName": "creditcard.trianglebadge.exclamationmark"
+            },
+            {
+                "label": "Business Loan",
+                "iconName": "suitcase.fill"
+            },
+            {
+                "label": "Loan Against Property",
+                "iconName": "house"
+            },
+            {
+                "label": "Car \nLoan",
+                "iconName": "car"
+            },
+            {
+                "label": "Infra \nFinance",
+                "iconName": "globe.americas.fill"
+            }
+        ]
+        
+    },
+    
+    {
+        "id": 5,
+        "title": "Cards",
+        "data": [
+            {
+            "label": "Debit Card",
+            "iconName": "creditcard.and.123"
+            },
+            {
+                "label": "Forex Card",
+                "iconName": "creditcard"
+            },
+            {
+                "label": "Image \nDebit Card",
+                "iconName": "lanyardcard.fill"
+            },
+            {
+                "label": "Smart \nEMI Card",
+                "iconName": "menucard"
+            },
+            {
+                "label": "FASTag",
+                "iconName": "tag.fill"
+            },
+            {
+                "label": "Kotak \nGift Card",
+                "iconName": "giftcard"
+            },
+            {
+                "label": "Card \nProtection",
+                "iconName": "lock.doc"
+            },
+            {
+                "label": "Kotak Offers",
+                "iconName": "cart.badge.plus"
+            }
+        ]
+    }
+]
+ 
